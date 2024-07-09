@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+      
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Gagan's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi,My name is <span class="purple">Gagan</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+
+        <div class="rightSection"><img src="cute girl3.jpeg" alt=""</div>
+      </section>
+      
+      <hr
+        style="border: 0; background: #9c97f1; height: 1.2px; margin: 40px 84px"
+      />
+      <section class="about-section">
+        <div class="about-content">
+          <div class="about-image">
+            <img src="mypic.jpg" alt="Gagan's Photo" class="about-photo" />
+          </div>
+
+          <div class="about-details">
+            <h2>About Me</h2>
+            <p>
+              Hello! I'm Gagan, a passionate web designer and developer with a keen interest in creating engaging and user-friendly websites.</p>
+              
+            <p>
+              I'm always eager to learn new skills and stay updated with the latest industry trends. 
+            </p>
+            <h3>Contact Information</h3>
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:gagan@example.com">kaurgaganpreet327@gmail.com</a></li>
+              <li><strong>Contact Number:</strong> <a href="tel:+1234567890">8264618081</a></li>
+              
+            </ul>
+            <h3>Education</h3>
+            <p>Bachelor of Technology in Mathematics and Computer Science<br />National Institute of Technology Hamirpur (2025)</p>
+            <h3>Skills</h3>
+            <div class="skills">
+              <div class="skill">
+             
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar"><div class="skill-level html"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar"><div class="skill-level css"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar"><div class="skill-level javascript"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Figma</div>
+                <div class="skill-bar"><div class="skill-level figma"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">C++ (DSA)</div>
+                <div class="skill-bar"><div class="skill-level cpp"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <hr
+        style="border: 0; background: #9c97f1; height: 1.2px; margin: 40px 84px"
+      />
+     
+          
+          
+      
+      
+      <section class="project-section">
+        <h2>Projects</h2>
+        <div class="project">
+          <img src="Ecommerce website.png" alt="Project 1 Image" />
+          <div class="project-info">
+            <h3>E-commerce website</h3>
+            <p>
+              Perfume Website that displays product details,images,prices and reviews.
+             </p><p> Tech Stack:HTML,CSS,Javascript
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="Netflix.png" alt="Project 2 Image" />
+          <div class="project-info">
+            <h3>Netflix Clone</h3>
+            <p>
+              A simple Website having similar homepage that of Netflix .
+            </p>
+             <p>
+              Tech Stack:HTML,CSS
+             </p>
+          </div>
+        </div>
+        <!-- Add more project divs as needed -->
+      </section>
+      <!--services section-->
+      <section class="services-section">
+        <h2>Services</h2>
+        <div class="services-container">
+          <div class="service">
+            
+            <h3>Web Design</h3>
+            <p>
+              Creating visually appealing and user-friendly website designs that enhance user experience.
+            </p>
+          </div>
+          <div class="service">
+            
+            <h3>Web Development</h3>
+            <p>
+              Building responsive and dynamic websites using modern technologies to bring your ideas to life.
+            </p>
+          </div>
+          <div class="service">
+            
+            <h3>Video Editing</h3>
+            <p>
+              Crafting engaging video content with professional editing skills for various platforms.
+            </p>
+          </div>
+          <div class="service">
+            
+            <h3>UI/UX Design</h3>
+            <p>
+              Designing intuitive and user-centric interfaces to improve user interaction and satisfaction.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+          <form action="https://formspree.io/f/yourformid" method="POST">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>If you have any questions or want to work together, feel free to reach out!</p>
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:kaurgaganpreet327@gmail.com">kaurgaganpreet327@gmail.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+8264618081">8264618081</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Video Editor", "Web Designer", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
